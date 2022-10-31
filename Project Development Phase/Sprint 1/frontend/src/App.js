@@ -5,7 +5,6 @@ import { Footer } from './containers';
 import { Navbar } from './components';
 
 import './App.css';
-import HomePage from './pages/HomePage';
 import Register from './pages/Register';
 import Login from './pages/Login';
 
@@ -15,7 +14,6 @@ const App = () => (
       <Navbar />
     </div>
     <Routes>
-      <Route path="/" element={<HomePage />} />
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
     </Routes>
